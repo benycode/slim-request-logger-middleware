@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "BenyCode\\Slim\\RequestMiddleware\\": "src"
+            "BenyCode\\Slim\\RequestLoggerMiddleware\\": "src"
         }
     },
     "license" : "GPL-2.0+",
     "autoload-dev": {
         "psr-4": {
-            "BenyCode\\Slim\\RequestMiddleware\\Tests\\": "tests"
+            "BenyCode\\Slim\\RequestLoggerMiddleware\\Tests\\": "tests"
         }
     },
 	"config": {
