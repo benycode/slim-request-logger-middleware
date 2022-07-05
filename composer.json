@@ -1,5 +1,5 @@
 {
-    "name": "benycode/slim-request-logger",
+    "name": "benycode/slim-request-logger-middleware",
     "description": "A slim middleware for Request logger",
     "keywords": ["slim","framework","middleware","log", "request"],
     "type": "library",
