@@ -1,0 +1,36 @@
+{
+    "name": "benycode/slim-request-logger",
+    "description": "A slim middleware for Request logger",
+    "keywords": ["slim","framework","middleware","log", "request"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Benycode"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.4.1",
+        "php-di/php-di": "^6.3",
+        "phpunit/phpunit": "^8.0 || ^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenyCode\\Slim\\RequestMiddleware\\": "src"
+        }
+    },
+    "license" : "GPL-2.0+",
+    "autoload-dev": {
+        "psr-4": {
+            "BenyCode\\Slim\\RequestMiddleware\\Tests\\": "tests"
+        }
+    },
+	"config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        }
+    }
+}
