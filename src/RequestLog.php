@@ -11,7 +11,5 @@ interface RequestLog
 {
     public function logRequest(string $requestId, ServerRequestInterface $request): void;
 
-    public function logAuthenticatedRequest(ServerRequestInterface $request): void;
-
     public function logResponse(ServerRequestInterface $request, ResponseInterface $response): void;
 }
