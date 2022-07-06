@@ -48,11 +48,9 @@ final class RequestLogMiddleware
         $response = $handler
             ->handle($request)
             ;
-        
-        $response
+   
+        return $response
             ->withHeader('Request-id', $requestId)
             ;
-
-        return $response;
     }
 }
